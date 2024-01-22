@@ -1,0 +1,451 @@
+{
+    "pokemons":[
+        {
+            "id":1,
+            "nom":"Bulbasaur",
+            "tipus":["planta","vaneno"],
+            "pes":{
+                "valor":6.9,
+                "unitats":"kg"
+            },
+            "altura":{
+                "valor":0.7,
+                "unitats":"m"
+            },
+            "estadistiques":{
+                "velocitat":3,
+                "fortalesa":3,
+                "precisio":4,
+                "resistencia":4,
+                "salt":3
+            },
+            "moviments":[
+                {
+                    "nom":"Placaje",
+                    "descripcio":"Placaje (Tackle en inglés; たいあたり Golpe con el cuerpo en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":40,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Gruñido",
+                    "descripcio":"Gruñido (Growl en inglés; なきごえ Grito en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Latigo cepa",
+                    "descripcio":"Látigo cepa (Vine Whip en inglés; つるのムチ Látigo liana en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":45,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":3
+                },
+                {
+                    "nom":"Desarrollo",
+                    "descripcio":"Desarrollo (Growth en inglés; せいちょう Crecimiento en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":6
+                },
+                {
+                    "nom":"Drenadoras",
+                    "descripcio":"Drenadoras (Leech Seed en inglés; やどりぎのタネ Semillas de muérdago en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":9
+                },
+                {
+                    "nom":"Hoja afilada",
+                    "descripcio":"Hoja afilada (Razor Leaf en inglés; はっぱカッター Hoja cortante en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":55,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":12
+                },
+                {
+                    "nom":"Polvo veneno",
+                    "descripcio":"Polvo veneno (Poison Powder en inglés; どくのこな Polvo veneno en japonés) es un movimiento de tipo veneno introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"veneno",
+                    "nivell":15
+                },
+                {
+                    "nom":"Somnifero",
+                    "descripcio":"Somnífero (Sleep Powder en inglés; ねむりごな Polvo de sueño en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":15
+                },
+                {
+                    "nom":"Bomba germen",
+                    "descripcio":"Bomba germen (Seed Bomb en inglés; タネばくだん Bomba semilla en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":80,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":18
+                },
+                {
+                    "nom":"Derribo",
+                    "descripcio":"Derribo (Take Down en inglés; とっしん Carga en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":90,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":21
+                },
+                {
+                    "nom":"Dulce aroma",
+                    "descripcio":"Dulce aroma (Sweet Scent en inglés; あまいかおり Dulce aroma en japonés) es un movimiento de tipo normal introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":24
+                },
+                {
+                    "nom":"Síntesis",
+                    "descripcio":"Síntesis (Synthesis en inglés; こうごうせい Fotosíntesis en japonés) es un movimiento de tipo planta introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":27
+                },
+                {
+                    "nom":"Abatidoras",
+                    "descripcio":"Abatidoras (Worry Seed en inglés; なやみのタネ Semilla de preocupación en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":30
+                },
+                {
+                    "nom":"Latigazo",
+                    "descripcio":"Latigazo (Power Whip en inglés; パワーウィップ Látigo potente en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":120,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":33
+                },
+                {
+                    "nom":"Rayo solar",
+                    "descripcio":"Rayo solar (Solar Beam2 en inglés, ソーラービーム Rayo solar en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":120,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":36
+                }
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png",
+            "evolucions":[
+                {
+                    "id":2,
+                    "nivell":16
+                },
+                {
+                    "id":3,
+                    "nivell":32
+                }
+            ]
+        },
+        {
+            "id":2,
+            "nom":"Ivysaur",
+            "tipus":["planta","veneno"],
+            "pes":{
+                "valor":13,
+                "unitats":"kg"
+            },
+            "altura":{
+                "valor":1,
+                "unitats":"m"
+            },
+            "estadistiques":{
+                "velocitat":2,
+                "fortalesa":3,
+                "precisio":5,
+                "resistencia":5,
+                "salt":3
+            },
+            "moviments":[
+                {
+                    "nom":"Placaje",
+                    "descripcio":"Placaje (Tackle en inglés; たいあたり Golpe con el cuerpo en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":40,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Gruñido",
+                    "descripcio":"Gruñido (Growl en inglés; なきごえ Grito en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Latigo cepa",
+                    "descripcio":"Látigo cepa (Vine Whip en inglés; つるのムチ Látigo liana en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":45,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":1
+                },
+                {
+                    "nom":"Desarrollo",
+                    "descripcio":"Desarrollo (Growth en inglés; せいちょう Crecimiento en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Drenadoras",
+                    "descripcio":"Drenadoras (Leech Seed en inglés; やどりぎのタネ Semillas de muérdago en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":9
+                },
+                {
+                    "nom":"Hoja afilada",
+                    "descripcio":"Hoja afilada (Razor Leaf en inglés; はっぱカッター Hoja cortante en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":55,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":12
+                },
+                {
+                    "nom":"Polvo veneno",
+                    "descripcio":"Polvo veneno (Poison Powder en inglés; どくのこな Polvo veneno en japonés) es un movimiento de tipo veneno introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"veneno",
+                    "nivell":15
+                },
+                {
+                    "nom":"Somnifero",
+                    "descripcio":"Somnífero (Sleep Powder en inglés; ねむりごな Polvo de sueño en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":15
+                },
+                {
+                    "nom":"Bomba germen",
+                    "descripcio":"Bomba germen (Seed Bomb en inglés; タネばくだん Bomba semilla en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":80,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":20
+                },
+                {
+                    "nom":"Derribo",
+                    "descripcio":"Derribo (Take Down en inglés; とっしん Carga en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":90,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":25
+                },
+                {
+                    "nom":"Dulce aroma",
+                    "descripcio":"Dulce aroma (Sweet Scent en inglés; あまいかおり Dulce aroma en japonés) es un movimiento de tipo normal introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":30
+                },
+                {
+                    "nom":"Síntesis",
+                    "descripcio":"Síntesis (Synthesis en inglés; こうごうせい Fotosíntesis en japonés) es un movimiento de tipo planta introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":35
+                },
+                {
+                    "nom":"Abatidoras",
+                    "descripcio":"Abatidoras (Worry Seed en inglés; なやみのタネ Semilla de preocupación en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":40
+                },
+                {
+                    "nom":"Latigazo",
+                    "descripcio":"Latigazo (Power Whip en inglés; パワーウィップ Látigo potente en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":120,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":45
+                },
+                {
+                    "nom":"Rayo solar",
+                    "descripcio":"Rayo solar (Solar Beam2 en inglés, ソーラービーム Rayo solar en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":120,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":50
+                }
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png",
+            "evolucions":[
+                {
+                    "id":3,
+                    "nivell":32
+                }
+            ]
+        },
+        {
+            "id":3,
+            "nom":"Venusaur",
+            "tipus":["planta","veneno"],
+            "pes":{
+                "valor":100,
+                "unitats":"kg"
+            },
+            "altura":{
+                "valor":2,
+                "unitats":"m"
+            },
+            "estadistiques":{
+                "velocitat":2,
+                "fortalesa":5,
+                "precisio":3,
+                "resistencia":5,
+                "salt":2
+            },
+            "moviments":[
+                {
+                    "nom":"Placaje",
+                    "descripcio":"Placaje (Tackle en inglés; たいあたり Golpe con el cuerpo en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":40,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Gruñido",
+                    "descripcio":"Gruñido (Growl en inglés; なきごえ Grito en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Latigo cepa",
+                    "descripcio":"Látigo cepa (Vine Whip en inglés; つるのムチ Látigo liana en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":45,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":1
+                },
+                {
+                    "nom":"Desarrollo",
+                    "descripcio":"Desarrollo (Growth en inglés; せいちょう Crecimiento en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":1
+                },
+                {
+                    "nom":"Drenadoras",
+                    "descripcio":"Drenadoras (Leech Seed en inglés; やどりぎのタネ Semillas de muérdago en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":9
+                },
+                {
+                    "nom":"Hoja afilada",
+                    "descripcio":"Hoja afilada (Razor Leaf en inglés; はっぱカッター Hoja cortante en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":55,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":12
+                },
+                {
+                    "nom":"Polvo veneno",
+                    "descripcio":"Polvo veneno (Poison Powder en inglés; どくのこな Polvo veneno en japonés) es un movimiento de tipo veneno introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"veneno",
+                    "nivell":15
+                },
+                {
+                    "nom":"Somnifero",
+                    "descripcio":"Somnífero (Sleep Powder en inglés; ねむりごな Polvo de sueño en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":15
+                },
+                {
+                    "nom":"Bomba germen",
+                    "descripcio":"Bomba germen (Seed Bomb en inglés; タネばくだん Bomba semilla en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":80,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":20
+                },
+                {
+                    "nom":"Derribo",
+                    "descripcio":"Derribo (Take Down en inglés; とっしん Carga en japonés) es un movimiento de tipo normal introducido en la primera generación.",
+                    "potencia":90,
+                    "contacte":true,
+                    "tipo":"normal",
+                    "nivell":25
+                },
+                {
+                    "nom":"Dulce aroma",
+                    "descripcio":"Dulce aroma (Sweet Scent en inglés; あまいかおり Dulce aroma en japonés) es un movimiento de tipo normal introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"normal",
+                    "nivell":30
+                },
+                {
+                    "nom":"Síntesis",
+                    "descripcio":"Síntesis (Synthesis en inglés; こうごうせい Fotosíntesis en japonés) es un movimiento de tipo planta introducido en la segunda generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":37
+                },
+                {
+                    "nom":"Abatidoras",
+                    "descripcio":"Abatidoras (Worry Seed en inglés; なやみのタネ Semilla de preocupación en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":null,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":44
+                },
+                {
+                    "nom":"Latigazo",
+                    "descripcio":"Latigazo (Power Whip en inglés; パワーウィップ Látigo potente en japonés) es un movimiento de tipo planta introducido en la cuarta generación.",
+                    "potencia":120,
+                    "contacte":true,
+                    "tipo":"planta",
+                    "nivell":51
+                },
+                {
+                    "nom":"Rayo solar",
+                    "descripcio":"Rayo solar (Solar Beam2 en inglés, ソーラービーム Rayo solar en japonés) es un movimiento de tipo planta introducido en la primera generación.",
+                    "potencia":120,
+                    "contacte":false,
+                    "tipo":"planta",
+                    "nivell":58
+                }
+            ],
+            "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/b/be/Venusaur.png",
+            "evolucions":[
+            ]
+        }
+    ]
+}
